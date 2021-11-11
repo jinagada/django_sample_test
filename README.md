@@ -1,4 +1,4 @@
-# 샘플 프르젝트 정보
+# 샘플 프로젝트 정보
 이미 설치된 프로그램들
 * conda version : 4.10.3
 * Python 3.7.10 | packaged by conda-forge | (default, Feb 19 2021, 16:07:37)
@@ -36,6 +36,10 @@ $ sudo systemctl restart firewalld
 ```bash
 ... 생략 ...
 
+ALLOWED_HOSTS = []
+
+... 생략 ...
+
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
@@ -45,6 +49,10 @@ TIME_ZONE = 'UTC'
 
 * TO-BE
 ```bash
+... 생략 ...
+
+ALLOWED_HOSTS = ['0.0.0.0:8000', 'localhost', '127.0.0.1', '192.168.56.101']
+
 ... 생략 ...
 
 LANGUAGE_CODE = 'ko-kr'
