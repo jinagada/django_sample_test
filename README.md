@@ -4,7 +4,7 @@
 * Python 3.7.10 | packaged by conda-forge | (default, Feb 19 2021, 16:07:37)
 * Django 3.2.9
 
-## PyCharm 에서 장고 프로젝트 생성
+## PyCharm 에서 Django 프로젝트 생성
 ### 개발서버 디렉토리 생성
 * sample-test env 사용
 ```bash
